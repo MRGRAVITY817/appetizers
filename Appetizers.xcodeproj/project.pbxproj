@@ -29,6 +29,7 @@
 		981AB3832A87DA2C005D9D7E /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */; };
 		981AB3892A87DD7A005D9D7E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3882A87DD7A005D9D7E /* String+Ext.swift */; };
 		981AB38B2A87E1BA005D9D7E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB38A2A87E1BA005D9D7E /* User.swift */; };
+		981AB3902A87EFE3005D9D7E /* EmptyStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB38F2A87EFE3005D9D7E /* EmptyStates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		981AB3882A87DD7A005D9D7E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Ext.swift"; path = "../../../../../Downloads/String+Ext.swift"; sourceTree = "<group>"; };
 		981AB38A2A87E1BA005D9D7E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		981AB38F2A87EFE3005D9D7E /* EmptyStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +74,6 @@
 		981AB3392A8688D1005D9D7E = {
 			isa = PBXGroup;
 			children = (
-				981AB38A2A87E1BA005D9D7E /* User.swift */,
-				981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */,
-				981AB37B2A87B93B005D9D7E /* AppetizerDetailView.swift */,
 				981AB3442A8688D1005D9D7E /* Appetizers */,
 				981AB3432A8688D1005D9D7E /* Products */,
 			);
@@ -127,6 +126,7 @@
 			children = (
 				981AB3542A868A0E005D9D7E /* AppetizerListView.swift */,
 				981AB3622A874DB9005D9D7E /* AppetizerListViewModel.swift */,
+				981AB37B2A87B93B005D9D7E /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -135,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				981AB3562A868A15005D9D7E /* AccountView.swift */,
+				981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -187,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				981AB35A2A869002005D9D7E /* Appetizer.swift */,
+				981AB38A2A87E1BA005D9D7E /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +196,7 @@
 		981AB3752A87936D005D9D7E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				981AB38C2A87EFB7005D9D7E /* Empty States */,
 				981AB37D2A87C027005D9D7E /* Buttons */,
 				981AB3782A879381005D9D7E /* Cells */,
 				981AB3772A87937D005D9D7E /* Image */,
@@ -233,6 +236,14 @@
 				981AB3802A87C114005D9D7E /* XDismissButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		981AB38C2A87EFB7005D9D7E /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				981AB38F2A87EFE3005D9D7E /* EmptyStates.swift */,
+			);
+			path = "Empty States";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +326,7 @@
 				981AB3572A868A15005D9D7E /* AccountView.swift in Sources */,
 				981AB38B2A87E1BA005D9D7E /* User.swift in Sources */,
 				981AB37F2A87C031005D9D7E /* APButton.swift in Sources */,
+				981AB3902A87EFE3005D9D7E /* EmptyStates.swift in Sources */,
 				981AB3672A8757AC005D9D7E /* LoadingView.swift in Sources */,
 				981AB3482A8688D1005D9D7E /* AppetizerTabView.swift in Sources */,
 				981AB35F2A8740C3005D9D7E /* NetworkManager.swift in Sources */,
