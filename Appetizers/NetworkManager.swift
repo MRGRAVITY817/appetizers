@@ -5,12 +5,13 @@
 //  Created by Hoon Wee on 2023/08/12.
 //
 
-import Foundation
+import UIKit
 
 // Network Managers are preferred to be singleton
 final class NetworkManager {
     
     static let shared = NetworkManager()
+    private let cache = NSCache<NSString, UIImage>()
     
     static let baseURL = "https://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/"
     private let appetizerURL = baseURL + "appetizers"
@@ -46,6 +47,36 @@ final class NetworkManager {
             } catch {
                 completed(.failure(.invalidData))
             }
+        }
+        
+        task.resume()
+    }
+    
+    func downloadImage(fromURLString urlString: String, completed: @escaping (UIImage?) -> Void) {
+        
+        let cacheKey = NSString(string: urlString)
+        
+        // If the image exists in cache, get it and return it.
+        if let image = cache.object(forKey: cacheKey) {
+            completed(image)
+            return
+        }
+        
+        guard let url = URL(string: urlString) else {
+            completed(nil)
+            return
+        }
+        
+        let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
+            // if `data` is valid and creating UIImage from given data is also valid,
+            // then continue, else return nil.
+            guard let data = data, let image = UIImage(data: data) else {
+                completed(nil)
+                return
+            }
+            
+            self.cache.setObject(image, forKey: cacheKey)
+            completed(image)
         }
         
         task.resume()

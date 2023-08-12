@@ -20,6 +20,8 @@
 		981AB3612A8741A2005D9D7E /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3602A8741A2005D9D7E /* APError.swift */; };
 		981AB3632A874DB9005D9D7E /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3622A874DB9005D9D7E /* AppetizerListViewModel.swift */; };
 		981AB3652A8750E0005D9D7E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3642A8750E0005D9D7E /* Alert.swift */; };
+		981AB3672A8757AC005D9D7E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3662A8757AC005D9D7E /* LoadingView.swift */; };
+		981AB3692A875839005D9D7E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3682A875839005D9D7E /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		981AB3602A8741A2005D9D7E /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		981AB3622A874DB9005D9D7E /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		981AB3642A8750E0005D9D7E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		981AB3662A8757AC005D9D7E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		981AB3682A875839005D9D7E /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				981AB3492A8688D1005D9D7E /* Assets.xcassets */,
 				981AB35E2A8740C3005D9D7E /* NetworkManager.swift */,
 				981AB3582A868A1C005D9D7E /* OrderView.swift */,
+				981AB3662A8757AC005D9D7E /* LoadingView.swift */,
+				981AB3682A875839005D9D7E /* Color+Ext.swift */,
 				981AB34C2A8688D1005D9D7E /* Preview Content */,
 			);
 			path = Appetizers;
@@ -170,7 +176,9 @@
 				981AB3612A8741A2005D9D7E /* APError.swift in Sources */,
 				981AB35D2A874003005D9D7E /* AppetizerListCell.swift in Sources */,
 				981AB3632A874DB9005D9D7E /* AppetizerListViewModel.swift in Sources */,
+				981AB3692A875839005D9D7E /* Color+Ext.swift in Sources */,
 				981AB3572A868A15005D9D7E /* AccountView.swift in Sources */,
+				981AB3672A8757AC005D9D7E /* LoadingView.swift in Sources */,
 				981AB3482A8688D1005D9D7E /* AppetizerTabView.swift in Sources */,
 				981AB35F2A8740C3005D9D7E /* NetworkManager.swift in Sources */,
 				981AB3462A8688D1005D9D7E /* AppetizersApp.swift in Sources */,
