@@ -30,6 +30,7 @@
 		981AB3892A87DD7A005D9D7E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3882A87DD7A005D9D7E /* String+Ext.swift */; };
 		981AB38B2A87E1BA005D9D7E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB38A2A87E1BA005D9D7E /* User.swift */; };
 		981AB3902A87EFE3005D9D7E /* EmptyStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB38F2A87EFE3005D9D7E /* EmptyStates.swift */; };
+		981AB3922A87F26D005D9D7E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3912A87F26D005D9D7E /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		981AB3882A87DD7A005D9D7E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Ext.swift"; path = "../../../../../Downloads/String+Ext.swift"; sourceTree = "<group>"; };
 		981AB38A2A87E1BA005D9D7E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		981AB38F2A87EFE3005D9D7E /* EmptyStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStates.swift; sourceTree = "<group>"; };
+		981AB3912A87F26D005D9D7E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			children = (
 				981AB35A2A869002005D9D7E /* Appetizer.swift */,
 				981AB38A2A87E1BA005D9D7E /* User.swift */,
+				981AB3912A87F26D005D9D7E /* Order.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				981AB3612A8741A2005D9D7E /* APError.swift in Sources */,
 				981AB3812A87C114005D9D7E /* XDismissButton.swift in Sources */,
 				981AB35D2A874003005D9D7E /* AppetizerListCell.swift in Sources */,
+				981AB3922A87F26D005D9D7E /* Order.swift in Sources */,
 				981AB3832A87DA2C005D9D7E /* AccountViewModel.swift in Sources */,
 				981AB3632A874DB9005D9D7E /* AppetizerListViewModel.swift in Sources */,
 				981AB3692A875839005D9D7E /* Color+Ext.swift in Sources */,
