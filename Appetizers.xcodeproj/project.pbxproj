@@ -16,6 +16,8 @@
 		981AB3592A868A1C005D9D7E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3582A868A1C005D9D7E /* OrderView.swift */; };
 		981AB35B2A869002005D9D7E /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB35A2A869002005D9D7E /* Appetizer.swift */; };
 		981AB35D2A874003005D9D7E /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB35C2A874003005D9D7E /* AppetizerListCell.swift */; };
+		981AB35F2A8740C3005D9D7E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB35E2A8740C3005D9D7E /* NetworkManager.swift */; };
+		981AB3612A8741A2005D9D7E /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3602A8741A2005D9D7E /* APError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		981AB3582A868A1C005D9D7E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		981AB35A2A869002005D9D7E /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		981AB35C2A874003005D9D7E /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		981AB35E2A8740C3005D9D7E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		981AB3602A8741A2005D9D7E /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				981AB35C2A874003005D9D7E /* AppetizerListCell.swift */,
+				981AB35E2A8740C3005D9D7E /* NetworkManager.swift */,
+				981AB3602A8741A2005D9D7E /* APError.swift */,
 				981AB3442A8688D1005D9D7E /* Appetizers */,
 				981AB3432A8688D1005D9D7E /* Products */,
 			);
@@ -155,9 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				981AB35B2A869002005D9D7E /* Appetizer.swift in Sources */,
+				981AB3612A8741A2005D9D7E /* APError.swift in Sources */,
 				981AB35D2A874003005D9D7E /* AppetizerListCell.swift in Sources */,
 				981AB3572A868A15005D9D7E /* AccountView.swift in Sources */,
 				981AB3482A8688D1005D9D7E /* AppetizerTabView.swift in Sources */,
+				981AB35F2A8740C3005D9D7E /* NetworkManager.swift in Sources */,
 				981AB3462A8688D1005D9D7E /* AppetizersApp.swift in Sources */,
 				981AB3552A868A0E005D9D7E /* AppetizerListView.swift in Sources */,
 				981AB3592A868A1C005D9D7E /* OrderView.swift in Sources */,
