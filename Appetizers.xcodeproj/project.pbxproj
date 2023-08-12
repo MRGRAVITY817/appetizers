@@ -28,6 +28,7 @@
 		981AB3812A87C114005D9D7E /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3802A87C114005D9D7E /* XDismissButton.swift */; };
 		981AB3832A87DA2C005D9D7E /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */; };
 		981AB3892A87DD7A005D9D7E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3882A87DD7A005D9D7E /* String+Ext.swift */; };
+		981AB38B2A87E1BA005D9D7E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB38A2A87E1BA005D9D7E /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		981AB3802A87C114005D9D7E /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		981AB3882A87DD7A005D9D7E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Ext.swift"; path = "../../../../../Downloads/String+Ext.swift"; sourceTree = "<group>"; };
+		981AB38A2A87E1BA005D9D7E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		981AB3392A8688D1005D9D7E = {
 			isa = PBXGroup;
 			children = (
+				981AB38A2A87E1BA005D9D7E /* User.swift */,
 				981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */,
 				981AB37B2A87B93B005D9D7E /* AppetizerDetailView.swift */,
 				981AB3442A8688D1005D9D7E /* Appetizers */,
@@ -310,6 +313,7 @@
 				981AB3632A874DB9005D9D7E /* AppetizerListViewModel.swift in Sources */,
 				981AB3692A875839005D9D7E /* Color+Ext.swift in Sources */,
 				981AB3572A868A15005D9D7E /* AccountView.swift in Sources */,
+				981AB38B2A87E1BA005D9D7E /* User.swift in Sources */,
 				981AB37F2A87C031005D9D7E /* APButton.swift in Sources */,
 				981AB3672A8757AC005D9D7E /* LoadingView.swift in Sources */,
 				981AB3482A8688D1005D9D7E /* AppetizerTabView.swift in Sources */,
