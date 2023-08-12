@@ -21,7 +21,7 @@ struct OrderView: View {
                         }
                         .onDelete(perform: order.delete)
                     }
-                    .listStyle(PlainListStyle())
+                    .listStyle(.plain)
                     
                     Button {
                         print("order palced")
