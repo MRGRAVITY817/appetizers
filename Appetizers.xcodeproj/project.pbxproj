@@ -26,6 +26,8 @@
 		981AB37C2A87B93B005D9D7E /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB37B2A87B93B005D9D7E /* AppetizerDetailView.swift */; };
 		981AB37F2A87C031005D9D7E /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB37E2A87C031005D9D7E /* APButton.swift */; };
 		981AB3812A87C114005D9D7E /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3802A87C114005D9D7E /* XDismissButton.swift */; };
+		981AB3832A87DA2C005D9D7E /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */; };
+		981AB3892A87DD7A005D9D7E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3882A87DD7A005D9D7E /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		981AB37B2A87B93B005D9D7E /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		981AB37E2A87C031005D9D7E /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		981AB3802A87C114005D9D7E /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		981AB3882A87DD7A005D9D7E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Ext.swift"; path = "../../../../../Downloads/String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		981AB3392A8688D1005D9D7E = {
 			isa = PBXGroup;
 			children = (
+				981AB3822A87DA2C005D9D7E /* AccountViewModel.swift */,
 				981AB37B2A87B93B005D9D7E /* AppetizerDetailView.swift */,
 				981AB3442A8688D1005D9D7E /* Appetizers */,
 				981AB3432A8688D1005D9D7E /* Products */,
@@ -153,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				981AB3682A875839005D9D7E /* Color+Ext.swift */,
+				981AB3882A87DD7A005D9D7E /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 				981AB3612A8741A2005D9D7E /* APError.swift in Sources */,
 				981AB3812A87C114005D9D7E /* XDismissButton.swift in Sources */,
 				981AB35D2A874003005D9D7E /* AppetizerListCell.swift in Sources */,
+				981AB3832A87DA2C005D9D7E /* AccountViewModel.swift in Sources */,
 				981AB3632A874DB9005D9D7E /* AppetizerListViewModel.swift in Sources */,
 				981AB3692A875839005D9D7E /* Color+Ext.swift in Sources */,
 				981AB3572A868A15005D9D7E /* AccountView.swift in Sources */,
@@ -312,6 +319,7 @@
 				981AB3462A8688D1005D9D7E /* AppetizersApp.swift in Sources */,
 				981AB3652A8750E0005D9D7E /* Alert.swift in Sources */,
 				981AB3552A868A0E005D9D7E /* AppetizerListView.swift in Sources */,
+				981AB3892A87DD7A005D9D7E /* String+Ext.swift in Sources */,
 				981AB3592A868A1C005D9D7E /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
