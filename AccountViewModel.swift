@@ -26,6 +26,16 @@ final class AccountViewModel: ObservableObject {
         }
     }
     
+    func retrieveUser() {
+        guard let userData = userData else { return }
+        
+        do {
+            user = try JSONDecoder().decode(User.self, from: userData)
+        } catch {
+            alertItem = AlertContext.invalidUserData
+        }
+    }
+    
     var isValidForm: Bool {
         if user.firstName.isEmpty || user.lastName.isEmpty || user.email.isEmpty {
             alertItem = AlertContext.invalidForm
