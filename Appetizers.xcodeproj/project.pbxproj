@@ -22,6 +22,7 @@
 		981AB3652A8750E0005D9D7E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3642A8750E0005D9D7E /* Alert.swift */; };
 		981AB3672A8757AC005D9D7E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3662A8757AC005D9D7E /* LoadingView.swift */; };
 		981AB3692A875839005D9D7E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3682A875839005D9D7E /* Color+Ext.swift */; };
+		981AB36B2A878DE5005D9D7E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB36A2A878DE5005D9D7E /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		981AB3642A8750E0005D9D7E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		981AB3662A8757AC005D9D7E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		981AB3682A875839005D9D7E /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		981AB36A2A878DE5005D9D7E /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				981AB3472A8688D1005D9D7E /* AppetizerTabView.swift */,
 				981AB3492A8688D1005D9D7E /* Assets.xcassets */,
 				981AB35E2A8740C3005D9D7E /* NetworkManager.swift */,
+				981AB36A2A878DE5005D9D7E /* RemoteImage.swift */,
 				981AB3582A868A1C005D9D7E /* OrderView.swift */,
 				981AB3662A8757AC005D9D7E /* LoadingView.swift */,
 				981AB3682A875839005D9D7E /* Color+Ext.swift */,
@@ -181,6 +184,7 @@
 				981AB3672A8757AC005D9D7E /* LoadingView.swift in Sources */,
 				981AB3482A8688D1005D9D7E /* AppetizerTabView.swift in Sources */,
 				981AB35F2A8740C3005D9D7E /* NetworkManager.swift in Sources */,
+				981AB36B2A878DE5005D9D7E /* RemoteImage.swift in Sources */,
 				981AB3462A8688D1005D9D7E /* AppetizersApp.swift in Sources */,
 				981AB3652A8750E0005D9D7E /* Alert.swift in Sources */,
 				981AB3552A868A0E005D9D7E /* AppetizerListView.swift in Sources */,
