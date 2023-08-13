@@ -87,7 +87,7 @@ final class NetworkManager {
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
             // if `data` is valid and creating UIImage from given data is also valid,
             // then continue, else return nil.
-            guard let data = data, let image = UIImage(data: data) else {
+            guard let data, let image = UIImage(data: data) else {
                 completed(nil)
                 return
             }
