@@ -31,6 +31,7 @@
 		981AB38B2A87E1BA005D9D7E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB38A2A87E1BA005D9D7E /* User.swift */; };
 		981AB3902A87EFE3005D9D7E /* EmptyStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB38F2A87EFE3005D9D7E /* EmptyStates.swift */; };
 		981AB3922A87F26D005D9D7E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AB3912A87F26D005D9D7E /* Order.swift */; };
+		98BEF8EC2A88C32700FDA418 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF8EB2A88C32700FDA418 /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		981AB38A2A87E1BA005D9D7E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		981AB38F2A87EFE3005D9D7E /* EmptyStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStates.swift; sourceTree = "<group>"; };
 		981AB3912A87F26D005D9D7E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		98BEF8EB2A88C32700FDA418 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				981AB3542A868A0E005D9D7E /* AppetizerListView.swift */,
 				981AB3622A874DB9005D9D7E /* AppetizerListViewModel.swift */,
 				981AB37B2A87B93B005D9D7E /* AppetizerDetailView.swift */,
+				98BEF8EB2A88C32700FDA418 /* CustomModifiers.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				981AB3462A8688D1005D9D7E /* AppetizersApp.swift in Sources */,
 				981AB3652A8750E0005D9D7E /* Alert.swift in Sources */,
 				981AB3552A868A0E005D9D7E /* AppetizerListView.swift in Sources */,
+				98BEF8EC2A88C32700FDA418 /* CustomModifiers.swift in Sources */,
 				981AB3892A87DD7A005D9D7E /* String+Ext.swift in Sources */,
 				981AB3592A868A1C005D9D7E /* OrderView.swift in Sources */,
 			);
