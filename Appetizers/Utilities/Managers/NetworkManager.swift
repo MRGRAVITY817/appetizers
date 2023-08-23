@@ -18,41 +18,6 @@ final class NetworkManager {
     
     private init() {}
     
-    // This is not recommended after IOS 15
-    //    func getAppetizers(completed: @escaping (Result<[Appetizer], APError>) -> Void) {
-    //        guard let url = URL(string: appetizerURL) else {
-    //            completed(.failure(.invalidURL))
-    //            return
-    //        }
-    //
-    //        let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
-    //            if let _ = error {
-    //                completed(.failure(.unableToComplete))
-    //                return
-    //            }
-    //
-    //            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-    //                completed(.failure(.invalidResponse))
-    //                return
-    //            }
-    //
-    //            guard let data = data else {
-    //                completed(.failure(.invalidData))
-    //                return
-    //            }
-    //
-    //            do {
-    //                let decoder = JSONDecoder()
-    //                let decodeResponse = try decoder.decode(AppetizerResponse.self, from: data)
-    //                completed(.success(decodeResponse.request))
-    //            } catch {
-    //                completed(.failure(.invalidData))
-    //            }
-    //        }
-    //
-    //        task.resume()
-    //    }
-    
     // It's an async function, might throw an error
     func getAppetizers() async throws -> [Appetizer] {
         guard let url = URL(string: appetizerURL) else {
@@ -98,4 +63,40 @@ final class NetworkManager {
         
         task.resume()
     }
+    
+    // Equivalent to above, but this is not recommended after IOS 15
+    //    func getAppetizers(completed: @escaping (Result<[Appetizer], APError>) -> Void) {
+    //        guard let url = URL(string: appetizerURL) else {
+    //            completed(.failure(.invalidURL))
+    //            return
+    //        }
+    //
+    //        let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
+    //            if let _ = error {
+    //                completed(.failure(.unableToComplete))
+    //                return
+    //            }
+    //
+    //            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+    //                completed(.failure(.invalidResponse))
+    //                return
+    //            }
+    //
+    //            guard let data = data else {
+    //                completed(.failure(.invalidData))
+    //                return
+    //            }
+    //
+    //            do {
+    //                let decoder = JSONDecoder()
+    //                let decodeResponse = try decoder.decode(AppetizerResponse.self, from: data)
+    //                completed(.success(decodeResponse.request))
+    //            } catch {
+    //                completed(.failure(.invalidData))
+    //            }
+    //        }
+    //
+    //        task.resume()
+    //    }
+    
 }
